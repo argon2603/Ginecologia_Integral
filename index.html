@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ginecología Integral</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/icon.png" />
+  </head>
+
+  <body class="hidden">
+    <div class="centrado" id="onload">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    
+    <header>
+      <nav id="nav" class="nav1">
+        <div class="contenedor-nav">
+          <div class="logo">
+            <img src="img/icon.png" alt="" />
+          </div>
+          <div class="enlaces" id="enlaces">
+            <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+            <a href="#" id="enlace-equipo" class="btn-header">Acerca De</a>
+            <a href="#" id="enlace-servicio" class="btn-header">Servicios</a>
+            <a href="#" id="enlace-trabajo" class="btn-header">Trabajos</a>
+            <a href="#" id="enlace-clientes" class="btn-header">Clientes</a>
+            <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+          </div>
+          <div class="icono" id="open">
+            <span>&#9776;</span>
+          </div>
+        </div>
+      </nav>
+      <div class="textos">
+        <h1>Ginecología Integral</h1>
+        <h2>Dr. Noel L. Argaez Cime</h2>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECCIÓN 1 -->
+      <section class="team contenedor" id="equipo">
+        <h3>Sobre Mi</h3>
+        <p class="after">Médico Cirujano Militar</p>
+        <div class="card">
+          <div class="content-card">
+            <div class="people">
+              <img src="img/dr.jpg" alt="" />
+            </div>
+            <div class="texto-team">
+              <h4>Dr. Noel L. Argaez Cime</h4>
+              <a href="#" class="cta">Más información</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODAL -->
+      <div class="modal-container">
+        <div class="modal modal-close">
+          <p class="close">X</p>
+          <div class="modal-textos">
+            <h2>Currículum</h2>
+            <ul>
+              <li>
+                <b>Médico cirujano militar</b> egresado dela Universidad del
+                Ejército y Fuerza Aérea Mexicanos, Escuela Médico Militar.
+              </li>
+              <li>
+                <b>Especialización y redidencia en ginecología y obstetricia</b>
+                en la Universidad del Ejército y Fuerza Aérea Mexicanos, Escuela
+                Militar de Graduados de Sanidad.
+              </li>
+              <li>
+                <b>Alta especialidad en urología ginecológica</b> en la
+                Universidad Autónoma de México, Instituto Nacional de
+                Perinatología.
+              </li>
+              <li>
+                <b>Diplomado en colposcopía y cáncer</b> en la mujer realizado
+                en la Benemérita Universidad Autónoma de Puebla.
+              </li>
+              <li>
+                <b>Diplomado en ultrasonido ginecoobstetrico</b> realizado en la
+                Universidad la Selle, Colegio de Médicos Militares.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECCIÓN 2 -->
+      <section class="about" id="servicio">
+        <div class="contenedor">
+          <h3>Nuestros servicios</h3>
+          <p class="after">Servicios de alta especialidad</p>
+          <div class="servicios">
+            <div class="caja-servicios">
+              <img src="img/icon (2).png" alt="" />
+              <h4>Ginecoobstetricia</h4>
+              <p>
+                Especalidad médica y quirúrgica que trata enfermedades del
+                sistema reproductor femenino y se ocpa del embarazo, parto y
+                periodos posteriores, así como las posibles complicaciones.
+              </p>
+            </div>
+            <div class="caja-servicios">
+              <img src="img/icon (2).png" alt="" />
+              <h4>Urología Ginecológica</h4>
+              <p>
+                Diciplina médico-quirúrgica encargada del estudio, diagnóstico y
+                tratamiento de enfermedades relacionadas con el aparato urinario
+                y genital femenino.
+              </p>
+            </div>
+            <div class="caja-servicios">
+              <img src="img/icon (2).png" alt="" />
+              <h4>Colposcopía Y Cáncer</h4>
+              <p>
+                Diagnostica oportunamente los cánceres que afectan con más
+                frecuencia a la mujer.
+              </p>
+            </div>
+            <div class="caja-servicios">
+              <img src="img/icon (2).png" alt="" />
+              <h4>Ultrasonido</h4>
+              <p>
+                Realización de estudios de imagen para el diagnostico de
+                lesiones malignas, asi como para el control del embarazo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 3 -->
+      <section class="work contenedor" id="trabajo">
+        <h3>Nuestro trabajo</h3>
+        <p class="after">Tu salud es primero</p>
+        <div class="botones-work">
+          <ul>
+            <li class="filter active" data-nombre="todos">Todos</li>
+            <li class="filter" data-nombre="gineco">Ginecoobstetricia</li>
+            <li class="filter" data-nombre="uro-gineco">Urología Ginecológica</li>
+            <li class="filter" data-nombre="colp-cancer">Colposcopía Y Cáncer</li>
+            <li class="filter" data-nombre="ultra">Ultrasonido</li>
+          </ul>
+        </div>
+        <div class="galeria-work">
+          <!-- GINECO -->
+          <div class="cont-work gineco">
+            <div class="img-work">
+              <img src="img/control-embarazo.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Control de embarazo</h4>
+            </div>
+          </div>
+          <div class="cont-work gineco">
+            <div class="img-work">
+              <img src="img/climaterio-menopausia.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Climaterio y menopausia</h4>
+            </div>
+          </div>
+          <div class="cont-work gineco">
+            <div class="img-work">
+              <img src="img/plan-familiar.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Planificación familiar</h4>
+            </div>
+          </div>
+          <div class="cont-work gineco">
+            <div class="img-work">
+              <img src="img/alt-menstruales.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Alteraciones menstruales</h4>
+            </div>
+          </div>
+          <div class="cont-work gineco">
+            <div class="img-work">
+              <img src="img/tumores.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Tumores</h4>
+            </div>
+          </div>
+
+          <!-- URO-GINECO -->
+          <div class="cont-work uro-gineco">
+            <div class="img-work">
+              <img src="img/inco-u.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Incontinencia urinaria</h4>
+            </div>
+          </div>
+          <div class="cont-work uro-gineco">
+            <div class="img-work">
+              <img src="img/inco-a.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Incontinencia anal</h4>
+            </div>
+          </div>
+          <div class="cont-work uro-gineco">
+            <div class="img-work">
+              <img src="img/pro-u.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Prolapso uterino</h4>
+            </div>
+          </div>
+          <div class="cont-work uro-gineco">
+            <div class="img-work">
+              <img src="img/dis-sexual.png" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Disfunción sexual</h4>
+            </div>
+          </div>
+
+          <!-- COLP-CANCER -->
+          <div class="cont-work colp-cancer">
+            <div class="img-work">
+              <img src="img/pap.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Papanicolaou</h4>
+            </div>
+          </div>
+          <div class="cont-work colp-cancer">
+            <div class="img-work">
+              <img src="img/colp.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Colposcopia</h4>
+            </div>
+          </div>
+          <div class="cont-work colp-cancer">
+            <div class="img-work">
+              <img src="img/vph.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Detección de VPH</h4>
+            </div>
+          </div>
+          <div class="cont-work colp-cancer">
+            <div class="img-work">
+              <img src="img/biop.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Toma de biopsia</h4>
+            </div>
+          </div>
+
+          <!-- ULTRA -->
+          <div class="cont-work ultra">
+            <div class="img-work">
+              <img src="img/ultra-o.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Obstetrico</h4>
+            </div>
+          </div>
+          <div class="cont-work ultra">
+            <div class="img-work">
+              <img src="img/ultra-g.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Ginecológico</h4>
+            </div>
+          </div>
+          <div class="cont-work ultra">
+            <div class="img-work">
+              <img src="img/ultra-a.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Abdominal</h4>
+            </div>
+          </div>
+          <div class="cont-work ultra">
+            <div class="img-work">
+              <img src="img/ultra-e.jpg" alt="" />
+            </div>
+            <div class="textos-work">
+              <h4>Endovaginal</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 -->
+      <section class="slider">
+        <div class="slider_container container">
+          <img src="img/a-left.svg" alt="" class="slider_arrow" id="before" />
+
+          <section class="slider_body slider_body-show" data-id="1">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                Exelente Gine, muy humilde con sus pacientes y todo te lo explica muy bien.
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letrag.png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="2">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                Exelente, muy atento y super claro al brindarte la información de tus chequeos.
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letraa.png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="3">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                Exelente atención e información brindada ¡Muchas gracias Dr. Argaez!
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letraj.png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="4">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                Sin duda de los mejores médicos.
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letrac.png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="5">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                Se reconoce su trabajo, es exelente. Muchas felicidades Dr. Argaez.
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letras.png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="6">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                El mejor ginecólogo sin duda, muchas gracias doc. Exelente atención, mi bb se ve hermosa.
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letrac(1).png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="7">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                Súper recomendado, es un doctor que ofrece el mejor de los tratos!!!
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letrav.png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="8">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                El mejor dr, en mejores manos no pudieron estar mi hija y mi nietecita, gracias médico.
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letram.png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="9">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                El doctor Argaez, exelente persona, muy atento y te explica muy bien, me operó de un mioma y todo salió muy bien gracias a el y a su equipo de trabajo.
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letram(1).png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <section class="slider_body" data-id="10">
+            <div class="slider_texts">
+              <h2 class="subtitle">Cliente ¡Satisfecho!</h2>
+              <p class="slider_review">
+                Exelente médico, a mi me ha atendido a mis dos bebes y todo ha salido bien.
+              </p>
+            </div>
+
+            <figure class="slider_pic">
+              <img src="img/letraf(1).png" alt="User" class="slider_img" />
+            </figure>
+          </section>
+
+          <img src="img/a-right.svg" alt="" class="slider_arrow" id="next" />
+        </div>
+      </section>
+    </main>
+
+    <!-- foot -->
+    <footer>
+      <div class="contact" id="contacto">
+        <div class="item__contact">
+          <i class="bx bx-copyright contact__icon"></i>
+          <h3 class="contact__title">Ginecología Integral</h3>
+        </div>
+        <div class="item__contact">
+          <i class="bx bxl-whatsapp contact__icon"></i>
+          <h3 class="contact__title">3310432855</h3>
+        </div>
+        <div class="item__contact">
+          <i class="bx bxs-edit-location contact__icon"></i>
+          <h3 class="contact__title">Guayacan #5, esq. 27 Feb, col. Atasta</h3>
+        </div>
+        <div class="item__contact item__contact--gold">
+          <i class="bx bxs-chat contact__icon contact__icon--modifier"></i>
+          <h3 class="contact__title">Contactanos ahora</h3>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+    <script src="js/sliders.js"></script>
+  </body>
+</html>
